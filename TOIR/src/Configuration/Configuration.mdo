@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34952b2d-fc81-42e7-90fb-abe57572df23">
+  <name>Configuration</name>
+  <synonym>
+    <key>en</key>
+    <value>Configuration</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="218dbd88-e7ce-4ed1-bddd-18e1fc53a1ce"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9392b409-3db2-4b39-a846-0e2120b970ba"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7aceb7c2-d8d5-4039-a21d-cd030eeb79f7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4e16f93d-a5d0-4f70-9ef6-66040c25dea4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="989ced5e-3357-456f-a1c1-f865824e3bff"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a384ff5f-6e6a-433c-bc7a-79eb254d54b4"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="c61026d5-7c9c-4062-9d44-8c7eb1ffe7f9">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.Тоир</subsystems>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ОбъектыОбслуживания</catalogs>
+  <catalogs>Catalog.ТехнологическиеОперации</catalogs>
+  <documents>Document.ЗаданиеНаОбслуживание</documents>
+</mdclass:Configuration>

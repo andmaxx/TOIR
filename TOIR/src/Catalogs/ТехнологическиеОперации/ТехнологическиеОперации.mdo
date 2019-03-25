@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58bdc3b8-b7c1-4ade-b851-8fc973e678f5">
+  <producedTypes>
+    <objectType typeId="21e73ae0-c97e-4f65-8d79-673ab9a9341b" valueTypeId="01192102-83ba-458a-a91c-0babc09bf628"/>
+    <refType typeId="1f646513-35f7-43fc-8c46-cd7e94ec688b" valueTypeId="7f37ef7e-8596-44c6-b714-4ceeecd3b76a"/>
+    <selectionType typeId="a876b625-454e-4dd7-b43d-207890b59e1a" valueTypeId="2ecffb41-7de9-406d-897f-3d4c9913f8d8"/>
+    <listType typeId="5b459891-324f-45bb-a03d-23d5220e8a0a" valueTypeId="edc30ed9-3a88-4f4a-ac86-595fcd4e09ea"/>
+    <managerType typeId="f64da36b-b2c1-42fb-be31-dcf81109b60f" valueTypeId="66d3a3e2-7c69-4011-b70b-883531570e14"/>
+  </producedTypes>
+  <name>ТехнологическиеОперации</name>
+  <synonym>
+    <key>en</key>
+    <value>Технологические операции</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТехнологическиеОперации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТехнологическиеОперации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ОбъектыОбслуживания</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="e8bdd532-abd9-4757-8d24-24ccdff5f097">
+    <producedTypes>
+      <objectType typeId="649ded85-3894-4b56-ad6d-708e87f9998c" valueTypeId="d5c5086a-40d1-4b18-acf5-4fe5c3513cab"/>
+      <rowType typeId="c7303eeb-eea3-47cd-92df-c9db4bf8ddb5" valueTypeId="8624aa02-cce6-4dad-bf0b-bb733ccd5ff3"/>
+    </producedTypes>
+    <name>Работы</name>
+    <synonym>
+      <key>en</key>
+      <value>Работы</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="985ce8f9-ed5d-482c-83bb-0d549636b5a3">
+      <name>Описание</name>
+      <synonym>
+        <key>en</key>
+        <value>Описание</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
