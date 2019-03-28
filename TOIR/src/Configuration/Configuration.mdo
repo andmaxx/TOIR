@@ -39,4 +39,5 @@
   <catalogs>Catalog.ОбъектыОбслуживания</catalogs>
   <catalogs>Catalog.ТехнологическиеОперации</catalogs>
   <documents>Document.ЗаданиеНаОбслуживание</documents>
+  <documents>Document.ЗаданиеНаРаботы</documents>
 </mdclass:Configuration>
