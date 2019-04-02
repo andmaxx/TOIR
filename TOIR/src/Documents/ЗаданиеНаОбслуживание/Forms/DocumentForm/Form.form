@@ -10,7 +10,7 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Object.Number</segments>
+        <segments>Объект.Number</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
@@ -62,7 +62,7 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Object.Date</segments>
+        <segments>Объект.Date</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
@@ -114,7 +114,7 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Object.Сотрудник</segments>
+        <segments>Объект.Сотрудник</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
@@ -166,7 +166,7 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Object.ОбъектОбслуживания</segments>
+        <segments>Объект.ОбъектОбслуживания</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
@@ -218,7 +218,7 @@
     </userVisible>
     <dataPath xsi:type="form:MultiLanguageDataPath">
       <paths xsi:type="form:DataPath">
-        <segments>Object.ТехнологическаяОперация</segments>
+        <segments>Объект.ТехнологическаяОперация</segments>
       </paths>
     </dataPath>
     <extendedTooltip>
@@ -269,7 +269,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Object.Работы</segments>
+      <segments>Объект.Работы</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
@@ -282,7 +282,7 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Object.Работы.LineNumber</segments>
+          <segments>Объект.Работы.LineNumber</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -330,7 +330,7 @@
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
-          <segments>Object.Работы.ОписаниеРабот</segments>
+          <segments>Объект.Работы.ОписаниеРабот</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -385,7 +385,7 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Object.Работы.НачалоРабот</segments>
+            <segments>Объект.Работы.НачалоРабот</segments>
           </paths>
         </dataPath>
         <extendedTooltip>
@@ -437,7 +437,7 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Object.Работы.КонецРабот</segments>
+            <segments>Объект.Работы.КонецРабот</segments>
           </paths>
         </dataPath>
         <extendedTooltip>
@@ -727,7 +727,11 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>Object</name>
+    <name>Объект</name>
+    <title>
+      <key>en</key>
+      <value>Объект</value>
+    </title>
     <id>1</id>
     <valueType>
       <types>DocumentObject.ЗаданиеНаОбслуживание</types>
@@ -739,7 +743,7 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Object.RegisterRecords</segments>
+      <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
